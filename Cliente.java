@@ -11,4 +11,11 @@ public class Cliente {
         this.totalCompras = 0;
     }
 
+    public void mostrarPerfil() {
+        System.out.println("Cliente: " + nombre);
+        System.out.println("Correo: " + correo);
+        System.out.println("Saldo: $" + String.format("%.2f", saldo));
+        System.out.println("Compras realizadas: " + totalCompras);
+    }
+
 }
